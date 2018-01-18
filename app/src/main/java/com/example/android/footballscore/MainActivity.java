@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     im.setImageDrawable(getResources().getDrawable(R.drawable.new_york_giants));
                 if(s.equals("New York Jets"))
                     im.setImageDrawable(getResources().getDrawable(R.drawable.new_york_jets));
-                if(s.equals("Okaland Raiders"))
+                if(s.equals("Oakland Raiders"))
                     im.setImageDrawable(getResources().getDrawable(R.drawable.oakland_raiders));
                 if(s.equals("Philadelphia Eagles"))
                     im.setImageDrawable(getResources().getDrawable(R.drawable.philadelphia_eagles));
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                     im2.setImageDrawable(getResources().getDrawable(R.drawable.new_york_giants));
                 if(s2.equals("New York Jets"))
                     im2.setImageDrawable(getResources().getDrawable(R.drawable.new_york_jets));
-                if(s2.equals("Okaland Raiders"))
+                if(s2.equals("Oakland Raiders"))
                     im2.setImageDrawable(getResources().getDrawable(R.drawable.oakland_raiders));
                 if(s2.equals("Philadelphia Eagles"))
                     im2.setImageDrawable(getResources().getDrawable(R.drawable.philadelphia_eagles));
