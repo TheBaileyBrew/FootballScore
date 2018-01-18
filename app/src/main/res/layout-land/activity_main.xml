@@ -58,7 +58,6 @@
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="2dp"
                             android:layout_weight="1"
                             android:orientation="vertical">
@@ -68,7 +67,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
-                                android:text="PASS"
+                                android:text="@string/pass"
                                 android:textSize="10dp" />
 
                             <TextView
@@ -92,7 +91,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
-                                android:text="REC"
+                                android:text="@string/rec"
                                 android:textSize="10dp" />
 
                             <TextView
@@ -116,7 +115,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
-                                android:text="RUSH"
+                                android:text="@string/rush"
                                 android:textSize="10dp" />
 
                             <TextView
@@ -151,7 +150,7 @@
                     android:id="@+id/team_one_offense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="OFFENSE SCORING"
+                    android:text="@string/offense"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:background="#66999999"
@@ -207,7 +206,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="DEFENSE SCORING"
+                    android:text="@string/defense"
                     android:background="#66999999"
                     android:gravity="center"/>
                 <LinearLayout
@@ -263,7 +262,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="pass yd"
+                    android:text="@string/pass_yd"
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:textAllCaps="true"
@@ -302,7 +301,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="rec yd"
+                    android:text="@string/rec_yd"
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:textAllCaps="true"
@@ -341,7 +340,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="rush yd"
+                    android:text="@string/rush_yd"
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:background="#66999999"
@@ -428,15 +427,14 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:layout_marginTop="2dp"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_horizontal">
+                            android:orientation="vertical">
                             <TextView
                                 android:layout_gravity="center_horizontal"
                                 android:id="@+id/team_two_passing"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textSize="10dp"
-                                android:text="PASS"
+                                android:text="@string/pass"
                                 />
                             <TextView
                                 android:layout_gravity="center_horizontal"
@@ -460,7 +458,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textSize="10dp"
-                                android:text="REC"
+                                android:text="@string/rec"
                                 />
                             <TextView
                                 android:layout_gravity="center_horizontal"
@@ -484,7 +482,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textSize="10dp"
-                                android:text="RUSH"
+                                android:text="@string/rush"
                                 />
                             <TextView
                                 android:layout_gravity="center_horizontal"
@@ -518,7 +516,7 @@
                         android:id="@+id/team_two_offense"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="OFFENSE SCORING"
+                        android:text="@string/offense"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:background="#66999999"
@@ -574,7 +572,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:text="DEFENSE SCORING"
+                        android:text="@string/defense"
                         android:background="#66999999"
                         android:gravity="center"/>
                     <LinearLayout
@@ -630,7 +628,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="passing yd"
+                            android:text="@string/pass_yd"
                             android:layout_marginLeft="2dp"
                             android:layout_marginRight="2dp"
                             android:textAllCaps="true"
@@ -669,7 +667,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="receiving yd"
+                            android:text="@string/rec_yd"
                             android:layout_marginLeft="2dp"
                             android:layout_marginRight="2dp"
                             android:textAllCaps="true"
@@ -708,7 +706,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="rushing yd"
+                            android:text="@string/rush_yd"
                             android:layout_marginLeft="2dp"
                             android:layout_marginRight="2dp"
                             android:background="#66999999"

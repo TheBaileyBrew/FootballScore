@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Football Score</string>
+    <string name="offense">OFFENSE SCORING</string>
+    <string name="defense">DEFENSE SCORING</string>
+    <string name="pass">PASS</string>
+    <string name="rec">REC</string>
+    <string name="rush">RUSH</string>
+    <string name="rush_yd">RUSHING YARDS</string>
+    <string name="rec_yd">RECEIVING YARDS</string>
+    <string name="pass_yd">PASSING YARDS</string>
+    <string name="rush_short">RUSH YD</string>
+    <string name="rec_short">REC YD</string>
+    <string name="pass_short">PASS YD</string>
     <dimen name="small_font">10sp</dimen>
     <string-array name="football_teams">
         <item>Choose Your Team</item>
